@@ -1,0 +1,26 @@
+[
+  {
+    "Author": "OOFGames",
+    "Name": "Chocobo Racing Gamba",
+    "InternalName": "ChocoboRacingGamba",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Players pick a chocobo(s) to bet on, the host rolls /random to advance chocobos, and the first to reach the finish line wins. Type /crg or /Chocoboracinggamba to open the main window.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "chocobo",
+      "racing",
+      "minigame",
+      "chat",
+      "party",
+      "alliance",
+      "gamba"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Host Chocobo Racing Gamba with your friends in Eorzea!",
+    "AcceptsFeedback": true
+  }
+]
