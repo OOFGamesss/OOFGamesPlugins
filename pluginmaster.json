@@ -3,9 +3,10 @@
     "Author": "OOFGames",
     "Name": "Chocobo Racing Gamba",
     "InternalName": "ChocoboRacingGamba",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "0.0.0.2",
     "Description": "Players pick a chocobo(s) to bet on, the host rolls /random to advance chocobos, and the first to reach the finish line wins. Type /crg or /Chocoboracinggamba to open the main window.",
     "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/OOFGamesss/OOFGamesPlugins",
     "Tags": [
       "chocobo",
       "racing",
@@ -21,6 +22,10 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "Host Chocobo Racing Gamba with your friends in Eorzea!",
-    "AcceptsFeedback": true
+    "Changelog": "Version bump for repo url and added CRG README.md to the plugin files.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip"
   }
 ]
