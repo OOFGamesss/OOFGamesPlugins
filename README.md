@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Images/oofgameslogo.png" alt="OOFGames Logo" width="350" />
+<img src="images/oofgameslogo.png" alt="OOFGames Logo" width="350" />
 
 # OOFGames Plugins
 
@@ -10,7 +10,7 @@ Welcome to the custom repository for OOFGames Dalamud Plugins!
 
 ## 🏁 Chocobo Racing Gamba
 
-<img src="Images/chocoboracinggamba.png" alt="Chocobo Racing Gamba Screenshot" width="350" />
+<img src="images/chocoboracinggamba.png" alt="Chocobo Racing Gamba Screenshot" width="350" />
 
 Host Chocobo Racing Gamba with your friends in Eorzea! Players pick a chocobo to bet on, the host rolls `/random` to advance chocobos, and the first to reach the finish line wins.
 
