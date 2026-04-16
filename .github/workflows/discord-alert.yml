@@ -43,7 +43,7 @@ jobs:
                 --arg ver "$NEW_VERSION" \
                 --arg cl "$CHANGELOG" \
                 '{
-                  username: "Plugin Update Bot",
+                  username: "OOFGames Plugin Updates",
                   embeds: [{
                     title: "🚀 Update: \($name)",
                     color: 3447003,
