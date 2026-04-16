@@ -1,0 +1,62 @@
+name: Plugin Update Alert
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'pluginmaster.json'
+
+jobs:
+  send_alerts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check for updates and trigger Webhook
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          git show HEAD~1:pluginmaster.json > old_pluginmaster.json || echo "[]" > old_pluginmaster.json
+
+          jq -c '.[]' pluginmaster.json | while read -r plugin; do
+            NAME=$(echo "$plugin" | jq -r '.Name')
+            NEW_VERSION=$(echo "$plugin" | jq -r '.AssemblyVersion')
+            CHANGELOG=$(echo "$plugin" | jq -r '.Changelog')
+
+            OLD_VERSION=$(jq -r --arg name "$NAME" '.[] | select(.Name==$name) | .AssemblyVersion // empty' old_pluginmaster.json)
+
+            if [ "$NEW_VERSION" != "$OLD_VERSION" ] && [ "$NEW_VERSION" != "null" ]; then
+              echo "New version detected for $NAME: $NEW_VERSION"
+
+              if [ -z "$CHANGELOG" ] || [ "$CHANGELOG" == "null" ] || [ "$CHANGELOG" == "" ]; then
+                CHANGELOG="*No changelog provided.*"
+              fi
+
+              PAYLOAD=$(jq -n \
+                --arg name "$NAME" \
+                --arg ver "$NEW_VERSION" \
+                --arg cl "$CHANGELOG" \
+                '{
+                  username: "Plugin Update Bot",
+                  embeds: [{
+                    title: "🚀 Update: \($name)",
+                    color: 3447003,
+                    fields: [
+                      { name: "New Version", value: $ver, inline: true },
+                      { name: "Changelog", value: $cl, inline: false }
+                    ],
+                    timestamp: (now | todate)
+                  }]
+                }')
+
+               curl -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK"
+               
+               sleep 2
+            fi
+          done
