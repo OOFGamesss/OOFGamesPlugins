@@ -28,6 +28,7 @@ jobs:
             NAME=$(echo "$plugin" | jq -r '.Name')
             NEW_VERSION=$(echo "$plugin" | jq -r '.AssemblyVersion')
             CHANGELOG=$(echo "$plugin" | jq -r '.Changelog')
+            ICON_URL=$(echo "$plugin" | jq -r '.IconUrl // empty')
 
             OLD_VERSION=$(jq -r --arg name "$NAME" '.[] | select(.Name==$name) | .AssemblyVersion // empty' old_pluginmaster.json)
 
@@ -42,17 +43,23 @@ jobs:
                 --arg name "$NAME" \
                 --arg ver "$NEW_VERSION" \
                 --arg cl "$CHANGELOG" \
+                --arg icon "$ICON_URL" \
+                --arg footer_icon "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/oofgameslogo.png" \
                 '{
                   username: "OOFGames Plugin Updates",
-                  embeds: [{
+                  embeds: [({
                     title: "🚀 Update: \($name)",
                     color: 3447003,
                     fields: [
                       { name: "New Version", value: $ver, inline: true },
                       { name: "Changelog", value: $cl, inline: false }
                     ],
+                    footer: { 
+                      text: "Play Hard, Win Big",
+                      icon_url: $footer_icon
+                    },
                     timestamp: (now | todate)
-                  }]
+                  } + (if $icon != "" and $icon != "null" then {thumbnail: {url: $icon}} else {} end))]
                 }')
 
                curl -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK"
