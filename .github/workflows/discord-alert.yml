@@ -35,6 +35,12 @@ jobs:
             if [ "$NEW_VERSION" != "$OLD_VERSION" ] && [ "$NEW_VERSION" != "null" ]; then
               echo "New version detected for $NAME: $NEW_VERSION"
 
+              if [ "$NAME" == "Chocobo Racing Gamba" ]; then
+                EMBED_COLOR=16766720
+              else
+                EMBED_COLOR=3447003
+              fi
+
               if [ -z "$CHANGELOG" ] || [ "$CHANGELOG" == "null" ] || [ "$CHANGELOG" == "" ]; then
                 CHANGELOG="*No changelog provided.*"
               fi
@@ -45,11 +51,12 @@ jobs:
                 --arg cl "$CHANGELOG" \
                 --arg icon "$ICON_URL" \
                 --arg footer_icon "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/oofgameslogo.png" \
+                --argjson color "$EMBED_COLOR" \
                 '{
                   username: "OOFGames Plugin Updates",
                   embeds: [({
                     title: "🚀 Update: \($name)",
-                    color: 3447003,
+                    color: $color,
                     fields: [
                       { name: "New Version", value: $ver, inline: true },
                       { name: "Changelog", value: $cl, inline: false }
