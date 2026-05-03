@@ -37,6 +37,8 @@ jobs:
 
               if [ "$NAME" == "Chocobo Racing Gamba" ]; then
                 EMBED_COLOR=16766720
+              elif [ "$NAME" == "Gamba Where" ]; then
+                EMBED_COLOR=15158332
               else
                 EMBED_COLOR=3447003
               fi
