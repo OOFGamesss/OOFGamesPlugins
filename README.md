@@ -36,6 +36,8 @@ To host a race, you must be whitelisted. Please contact Felix on the OOFGames Di
 
 Find and host FFXIV gambling events near you. **Gamba Where** is a Dalamud plugin that lets players discover active gamba sessions and host their own with configurable rules, presets, and automatic location updates.
 
+[Find out more about Gamba Where](https://github.com/OOFGamesss/GambaWhere)
+
 ### How to Install
 Type `/xlsettings` in the in-game chat.<br>
 Go to the **Experimental** tab.<br>
