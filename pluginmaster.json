@@ -33,7 +33,7 @@
     "Author": "OOFGames",
     "Name": "Gamba Where",
     "InternalName": "GambaWhere",
-    "AssemblyVersion": "0.0.8.0",
+    "AssemblyVersion": "0.0.9.0",
     "Description": "Browse active gambling events across Eorzea or host your own session. Use /gambawhere to open the interface.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -49,7 +49,7 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/gambawhere.png",
     "Punchline": "Find and host FFXIV gambling events near you.",
-    "Changelog": "Feature:\n- Added IPC from Chocobo Racing Gamba.",
+    "Changelog": "Features:\n- Added Discord Webhook support to allow you to display your gamba session in a Discord channel.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
