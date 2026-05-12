@@ -33,7 +33,7 @@
     "Author": "OOFGames",
     "Name": "Gamba Where",
     "InternalName": "GambaWhere",
-    "AssemblyVersion": "0.0.11.0",
+    "AssemblyVersion": "0.0.12.0",
     "Description": "Browse active gambling events across Eorzea or host your own session. Use /gambawhere to open the interface.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -49,7 +49,7 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/gambawhere.png",
     "Punchline": "Find and host FFXIV gambling events near you.",
-    "Changelog": "- Updated some rule config values.\n- Added new rules for Poker and Scratchcards.",
+    "Changelog": "- Added a sort option to the events tab to stop the events from being in a random order.\n- Changed description to show max 5 lines to stop massive events from taking over the view.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
