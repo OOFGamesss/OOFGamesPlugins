@@ -39,6 +39,8 @@ jobs:
                 EMBED_COLOR=16766720
               elif [ "$NAME" == "Gamba Where" ]; then
                 EMBED_COLOR=15158332
+              elif [ "$NAME" == "Mini Games Emporium" ]; then
+                EMBED_COLOR=10181046
               else
                 EMBED_COLOR=3447003
               fi

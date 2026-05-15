@@ -52,6 +52,28 @@ Type `/xlplugins`, search for **Gamba Where**, and click Install!
 
 ---
 
+## 🎮 Mini Games Emporium
+
+<img src="images/minigamesemporium.png" alt="Mini Games Emporium Icon" width="350" />
+
+The official mini game hub for OOF Games. **Mini Games Emporium** is a Dalamud plugin that handles everything a host needs: player queues, session tracking, trade verification, automated chat announcements, and a full transaction ledger.
+
+[Find out more about Mini Games Emporium](https://github.com/OOFGamesss/MiniGamesEmporium)
+
+### How to Install
+Type `/xlsettings` in the in-game chat.<br>
+Go to the **Experimental** tab.<br>
+Paste this link into the Custom Plugin Repositories at the bottom:<br>
+`https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/pluginmaster.json`<br>
+Click the **+** button, ensure it is **Enabled**, and click **Save and Close**.<br>
+Type `/xlplugins`, search for **Mini Games Emporium**, and click Install!
+
+### Commands
+<br>`/mge` or `/minigamesemporium` - Opens the main plugin window.<br>
+`/mgeconfig` - Opens directly to the Settings tab.
+
+---
+
 **[Join the OOFGames Discord!](https://discord.gg/vM6ff4h5Ym)**
 
 </div>
