@@ -59,7 +59,7 @@
     "Author": "OOFGames",
     "Name": "Mini Games Emporium",
     "InternalName": "MiniGamesEmporium",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "0.0.0.2",
     "Description": "A plugin to manage mini game sessions, player queues, and Gil transactions. Use /minigames to open the main window.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/OOFGamesss/MiniGamesEmporium",
