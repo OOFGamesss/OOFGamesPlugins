@@ -33,7 +33,7 @@
     "Author": "OOFGames",
     "Name": "Gamba Where",
     "InternalName": "GambaWhere",
-    "AssemblyVersion": "0.0.14.0",
+    "AssemblyVersion": "0.0.14.1",
     "Description": "Browse active gambling events across Eorzea or host your own session. Use /gambawhere to open the interface.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -49,7 +49,7 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/gambawhere.png",
     "Punchline": "Find and host FFXIV gambling events near you.",
-    "Changelog": "- No more forgetting to end your session! Introducing a brand new stylish pill overlay when a session is in progress. Easily stop your session within the new pill overlay without re-opening gamba where! (Go to settings to activate and move the pill around your screen)\n- Added a pause button to the new pill overlay. This will keep your post active but temporarily replace your description with an \"On Break\" label, allowing you to quickly go toilet and get drinks without people expecting you to be there!",
+    "Changelog": "- Pause button now properly aligned and vertically centered in the pill overlay.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
