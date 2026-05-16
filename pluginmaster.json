@@ -33,7 +33,7 @@
     "Author": "OOFGames",
     "Name": "Gamba Where",
     "InternalName": "GambaWhere",
-    "AssemblyVersion": "0.0.14.1",
+    "AssemblyVersion": "0.0.15.0",
     "Description": "Browse active gambling events across Eorzea or host your own session. Use /gambawhere to open the interface.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -49,7 +49,7 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/gambawhere.png",
     "Punchline": "Find and host FFXIV gambling events near you.",
-    "Changelog": "- Pause button now properly aligned and vertically centered in the pill overlay.",
+    "Changelog": "- Making the UI more pretty :3 Added colour picker to the settings tab.\n- Re-arranged the settings tab to accomodate the new settings.\n- Host gamba tab that now shows you what your event will look like on the gamba events tab.\n- Moved start hosting button top right to make space for new preview section.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
