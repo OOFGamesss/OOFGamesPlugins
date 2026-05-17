@@ -33,7 +33,7 @@
     "Author": "OOFGames",
     "Name": "Gamba Where",
     "InternalName": "GambaWhere",
-    "AssemblyVersion": "0.0.16.0",
+    "AssemblyVersion": "0.0.17.0",
     "Description": "Browse active gambling events across Eorzea or host your own session. Use /gambawhere to open the interface.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -49,7 +49,7 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/gambawhere.png",
     "Punchline": "Find and host FFXIV gambling events near you.",
-    "Changelog": "Sorry guys, I know I am pumping these updates all at once, been working hard the past few days on these as separate features :P\n- Added shareable preset, you can now share your rules and description and also import others! Thanks Tugan for the suggestion.\n- Added a top prize rule for scratchcards to pick an in game item to share as a prize.\n- Amended preview section to a dropdown to keep the tab clean.",
+    "Changelog": "- Changed venue dropdown to include a search bar and a heart button to favourite venues.\n- Added Death roll as an option under mini games.\n- Renamed rules to game info.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OOFGamesss/GambaWhere/releases/latest/download/latest.zip",
