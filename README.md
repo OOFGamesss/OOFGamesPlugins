@@ -8,7 +8,7 @@ Welcome to the custom repository for OOFGames Dalamud Plugins!
 
 ---
 
-## 🏁 Chocobo Racing Gamba
+## 🏁 Chocobo Racing
 
 <img src="images/chocoboracinggamba.png" alt="Chocobo Racing Gamba Screenshot" width="350" />
 
