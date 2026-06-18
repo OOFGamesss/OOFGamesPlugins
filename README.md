@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/oofgameslogo.png" alt="OOFGames Logo" width="350" />
+<img src="images/oofgameslogo2.png" alt="OOFGames Logo" width="350" />
 
 # OOFGames Plugins
 
