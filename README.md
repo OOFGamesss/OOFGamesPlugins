@@ -6,6 +6,8 @@
 
 Welcome to the custom repository for OOFGames Dalamud Plugins!
 
+Find more details about the games on the [OOF Games Website](https://oofgames.fyi)
+
 ---
 
 ## 🏁 Chocobo Racing
