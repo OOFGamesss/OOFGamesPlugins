@@ -14,6 +14,8 @@ Welcome to the custom repository for OOFGames Dalamud Plugins!
 
 Host Chocobo Racing with your friends in Eorzea! Players pick a chocobo to bet on, the host rolls `/random` to advance chocobos, and the first to reach the finish line wins.
 
+[Find out more about Chocobo Racing](https://github.com/OOFGamesss/ChocoboRacing)
+
 ### How to Install
 Type `/xlsettings` in the in-game chat.<br>
 Go to the **Experimental** tab.<br>
