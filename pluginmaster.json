@@ -1,12 +1,12 @@
 [
   {
     "Author": "OOFGames",
-    "Name": "Chocobo Racing Gamba",
+    "Name": "Chocobo Racing",
     "InternalName": "ChocoboRacingGamba",
-    "AssemblyVersion": "0.1.10.0",
-    "Description": "Players pick a chocobo(s) to bet on, the host rolls /random to advance chocobos, and the first to reach the finish line wins. Type /crg or /Chocoboracinggamba to open the main window.",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Host live Chocobo Racing events at your venue with zero manual bookkeeping. Bets are captured from party and alliance chat automatically, player banks track every balance, and payouts are calculated at the click of a button. Run 2-10 chocobos with custom track lengths, odds, and branded chat messages. Full race history and profit/loss reporting included.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/OOFGamesss/OOFGamesPlugins",
+    "RepoUrl": "https://github.com/OOFGamesss/ChocoboRacing",
     "Tags": [
       "chocobo",
       "racing",
@@ -22,12 +22,12 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/chocoboracinggamba.png",
-    "Punchline": "Host Chocobo Racing Gamba with your friends in Eorzea!",
-    "Changelog": "- Added auto payout service to automatically pay out winners.\n- Added a new setting to let you split out the bet list by player instead of chocobos. Some might find it easier to see who they've bet on this way.",
+    "Punchline": "The complete host toolkit for live Chocobo Racing events.",
+    "Changelog": "- v1.0.0.0 release",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/ChocoboRacingGamba/latest.zip"
+    "DownloadLinkInstall": "https://github.com/OOFGamesss/ChocoboRacing/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/OOFGamesss/ChocoboRacing/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/OOFGamesss/ChocoboRacing/releases/latest/download/latest.zip"
   },
   {
     "Author": "OOFGames",
