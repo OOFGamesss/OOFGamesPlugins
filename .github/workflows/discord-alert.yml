@@ -35,7 +35,7 @@ jobs:
             if [ "$NEW_VERSION" != "$OLD_VERSION" ] && [ "$NEW_VERSION" != "null" ]; then
               echo "New version detected for $NAME: $NEW_VERSION"
 
-              if [ "$NAME" == "Chocobo Racing Gamba" ]; then
+              if [ "$NAME" == "Chocobo Racing" ]; then
                 EMBED_COLOR=16766720
               elif [ "$NAME" == "Gamba Where" ]; then
                 EMBED_COLOR=15158332
