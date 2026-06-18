@@ -22,7 +22,7 @@ Host Chocobo Racing with your friends in Eorzea! Players pick a chocobo to bet o
 Type `/xlsettings` in the in-game chat.<br>
 Go to the **Experimental** tab.<br>
 Paste this link into the Custom Plugin Repositories at the bottom:<br>
-`https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/pluginmaster.json`<br>
+`https://puni.sh/api/repository/oof-games`<br>
 Click the **+** button, ensure it is **Enabled**, and click **Save and Close**.<br>
 Type `/xlplugins`, search for **Chocobo Racing**, and click Install!
 
