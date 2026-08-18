@@ -2,9 +2,9 @@
 
 <img src="images/oofgameslogo2.png" alt="OOF Games Logo" width="350" />
 
-# OOFGames Plugins
+# OOF Games Plugins
 
-Welcome to the custom repository for OOFGames Dalamud Plugins!
+Welcome to the custom repository for OOF Games Dalamud Plugins!
 
 Find more details about the games on the [OOF Games Website](https://oofgames.fyi)
 
