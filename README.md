@@ -60,7 +60,7 @@ Find and host FFXIV gambling events near you. **Gamba Where** is a Dalamud plugi
 Type `/xlsettings` in the in-game chat.<br>
 Go to the **Experimental** tab.<br>
 Paste this link into the Custom Plugin Repositories at the bottom:<br>
-`https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/pluginmaster.json`<br>
+`https://puni.sh/api/repository/oof-games`<br>
 Click the **+** button, ensure it is **Enabled**, and click **Save and Close**.<br>
 Type `/xlplugins`, search for **Gamba Where**, and click Install!
 
@@ -82,7 +82,7 @@ The official mini game hub for OOF Games. **Mini Games Emporium** is a Dalamud p
 Type `/xlsettings` in the in-game chat.<br>
 Go to the **Experimental** tab.<br>
 Paste this link into the Custom Plugin Repositories at the bottom:<br>
-`https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/pluginmaster.json`<br>
+`https://puni.sh/api/repository/oof-games`<br>
 Click the **+** button, ensure it is **Enabled**, and click **Save and Close**.<br>
 Type `/xlplugins`, search for **Mini Games Emporium**, and click Install!
 
