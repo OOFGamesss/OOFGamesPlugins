@@ -12,7 +12,7 @@ Find more details about the games on the [OOF Games Website](https://oofgames.fy
 
 ## 💠 Aetheric Flow
 
-<img src="images/aethericflow.png" alt="Aetheric Flow Icon" width="350" />
+<img src="images/aethericflow.png?v=2" alt="Aetheric Flow Icon" width="350" />
 
 Teleport to any map link in chat with one click. **Aetheric Flow** is a Dalamud plugin that spots map links in chat and adds a clickable teleport link to the nearest aetheryte you have attuned to, with an `/aftp` command so controller players can teleport straight from a macro. 
 
